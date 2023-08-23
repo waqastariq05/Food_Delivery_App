@@ -1,0 +1,25 @@
+.modal .modal-dialog .modal-header {
+  padding: 20px !important;
+}
+
+.modal .modal-dialog .modal-header .modal-title {
+  font-size: 25px !important;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.modal .modal-dialog .modal-body {
+  padding: 20px 30px;
+}
+.modal .modal-dialog .modal-body .signupBtn,
+.modal .modal-dialog .modal-body .loginBtn {
+  background: transparent !important;
+  color: var(--yellow);
+  border: none;
+  padding: 0;
+  font-weight: 600;
+}
+.modal .modal-dialog .modal-body span {
+  font-size: 14px;
+  color: #777;
+  margin-right: 5px;
+}

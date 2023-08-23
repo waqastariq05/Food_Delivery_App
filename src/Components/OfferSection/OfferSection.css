@@ -1,0 +1,73 @@
+.offerSection {
+    background-color: var(--dark-yellow);
+    margin-bottom: 100px;
+}
+
+.offerSection .offerBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.offerSection .offerBox .offerLeft {
+    padding: 50px 60px;
+    width: 60%;
+}
+
+.offerSection .offerBox .offerLeft h3 {
+    background-color: #fff;
+    width: 100px;
+    height: 2px;
+    margin-bottom: 50px;
+}
+
+.offerSection .offerBox .offerLeft h2 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Roboto';
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.offerSection .offerBox .offerLeft p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #eee;
+    margin-bottom: 60px;
+}
+
+.offerSection .offerBox .offerLeft .offerBtn {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+
+.offerSection .offerBox .offerLeft .offerBtn .btn {
+    padding: 15px 40px;
+    font-weight: 700;
+}
+
+.offerSection .offerBox .offerLeft .offerBtn .btn:nth-child(1) {
+    background: #fff !important;
+    color: #000 !important;
+}
+
+.offerSection .offerBox .offerLeft .offerBtn .btn:nth-child(1):hover {
+    background: transparent !important;
+    border: 2px solid #fff !important;
+    color: #fff !important;
+}
+
+.offerSection .offerBox .offerLeft .offerBtn .btn:nth-child(2) {
+    background: transparent !important;
+    border: 2px solid #fff !important;
+    color: #fff !important;
+}
+
+.offerSection .offerBox .offerLeft .offerBtn .btn:nth-child(2):hover {
+    background: #000 !important;
+    border: 2px solid #000 !important;
+    color: #fff !important;
+}

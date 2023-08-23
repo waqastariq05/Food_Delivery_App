@@ -1,0 +1,52 @@
+.mini-card {
+  width: auto;
+  border: none;
+  cursor: pointer;
+  box-shadow: var(--boxShadow);
+  padding: 30px;
+  transition: all 0.2s ease;
+}
+.mini-card:hover {
+  box-shadow: 5px 5px 20px rgb(0, 0, 0, 0.2);
+}
+.mini-card .mini-card-img {
+  padding: 0;
+  max-width: 100px;
+}
+.mini-card .mini-card-img img {
+  object-fit: contain;
+}
+.mini-card .icon {
+  display: none;
+}
+.mini-card .mini-card-body {
+  text-align: left;
+  padding: 25px 0 0;
+}
+.mini-card .mini-card-body .card-title {
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+  word-wrap: break-word;
+}
+.mini-card .mini-card-body .card-text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #282932;
+  margin-bottom: 0;
+  word-wrap: break-word;
+}
+
+@media (max-width: 991.98px) {
+  .mini-card .mini-card-body .card-title {
+    font-size: 22px;
+  }
+  .mini-card .mini-card-body .card-text {
+    font-size: 14px;
+  }
+}
+@media (max-width: 680.98px) {
+}
+@media (max-width: 425.98px) {
+}

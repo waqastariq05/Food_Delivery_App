@@ -1,0 +1,68 @@
+.mainBanner {
+  background-image: url(../../images/Inner_Banner.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 55vh;
+  text-align: center;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 0;
+  position: relative;
+}
+
+.mainBanner::before {
+  content: "";
+  background-color: #282932;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+  zoom: 1;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+}
+
+.mainBanner .content {
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  text-transform: capitalize;
+}
+
+.mainBanner .content h2 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.mainBanner .content h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.mainBanner .content h3 span {
+  color: #cfcfcf;
+}
+
+.mainBanner .content h3 .fa-arrow-right {
+  color: var(--yellow);
+  font-size: 14px;
+  margin: 0 5px;
+}
+
+@media (max-width: 425.98px) {
+  .mainBanner .content h2 {
+    font-size: 40px;
+  }
+
+  .mainBanner .content h3 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+}

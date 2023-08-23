@@ -1,0 +1,75 @@
+.teamSection {
+  margin: 50px 0;
+  padding: 0 50px;
+}
+
+.teamSection .body {
+  margin: 50px 0 30px;
+}
+
+.teamSection .body .card {
+  border: 0;
+  cursor: pointer;
+  margin: 10px 5px;
+}
+
+.teamSection .body .card .card-img {
+  overflow: hidden;
+}
+
+.teamSection .body .card .card-img img {
+  transition: all .3s ease;
+}
+
+.teamSection .body .card:hover .card-img img {
+  transform: scale(1.1);
+}
+
+.teamSection .body .card .card-body {
+  text-align: center;
+  padding: 30px 0px 0;
+}
+
+.teamSection .body .card .card-body .card-title {
+  font-size: 26px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  letter-spacing: .5px;
+  margin-bottom: 10px;
+}
+
+.teamSection .body .card .card-body .card-sub-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--dark-yellow);
+  margin-bottom: 20px;
+  letter-spacing: .5px;
+}
+
+.teamSection .body .card .card-body .card-text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #777;
+}
+
+@media (max-width: 991.98px) {
+  .teamSection {
+    padding: 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .teamSection {
+    padding: 0 50px;
+  }
+
+  .teamSection .box {
+    margin: 15px 0;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .teamSection {
+    padding: 0;
+  }
+}

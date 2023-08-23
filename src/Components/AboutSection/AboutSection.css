@@ -1,0 +1,310 @@
+.about {
+  margin: 50px 0;
+  padding: 0 50px;
+}
+
+.about .body {
+  margin: 5px 0 30px;
+}
+
+.about .body .photo-section {
+  position: relative;
+}
+
+.about .body .photo-tab {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+  top: 50px;
+  right: 0px;
+}
+
+.about .body .photo-tab span {
+  background-color: #fff;
+  padding: 15px 25px;
+  border-radius: 10px;
+  box-shadow: var(--boxShadow);
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+}
+
+.about .body .photo-tab .one {
+  right: 35px;
+}
+
+.about .body .photo-tab .two {
+  right: 20px;
+}
+
+.about .body .photo-tab span .fa-burger,
+.about .body .photo-tab span .fa-cheese,
+.about .body .photo-tab span .fa-martini-glass {
+  color: var(--yellow);
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+/* Text Section */
+.about .body .text-section {
+  padding: 0px 60px 0px 100px;
+}
+
+.about .body .text-section h2 {
+  font-size: 45px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+
+.about .body .text-section p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #787878;
+  margin-bottom: 30px;
+}
+
+.about .body .text-section .btn {
+  padding: 12px 30px 12px 30px;
+}
+
+/* =============== Service ==================== */
+.about .service {
+  padding: 5px 0 0;
+}
+
+.about .service h2 {
+  font-size: 34px;
+  font-weight: 800 !important;
+  text-transform: capitalize;
+  margin-bottom: 0;
+}
+
+.about .service .mini-card {
+  border-radius: 10px;
+}
+
+.about .service .mini-card .mini-card-img {
+  display: none;
+}
+
+.about .service .mini-card .icon {
+  display: none;
+}
+
+.about .service .mini-card .mini-card-body {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.about .service .mini-card .mini-card-body .card-title {
+  font-size: 44px;
+  margin-bottom: 0px;
+  color: var(--yellow);
+  font-weight: 800 !important;
+}
+
+.about .service .mini-card .mini-card-body .card-text {
+  font-size: 16px;
+}
+
+@media (max-width: 1199.98px) {
+  .about .body .photo-tab {
+    top: 20px;
+    right: -20px;
+  }
+
+  .about .body .photo-tab span {
+    padding: 12px 20px;
+  }
+
+  .about .body .text-section {
+    padding: 0px 20px 0px 80px;
+  }
+
+  .about .body .text-section h2 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .about {
+    padding: 0;
+  }
+
+  .about .body .photo-tab {
+    top: 15px;
+    right: -30px;
+  }
+
+  .about .body .photo-tab span {
+    padding: 13px 20px;
+    font-size: 14px;
+  }
+
+  .about .body .text-section {
+    padding: 0px 10px 0px 80px;
+  }
+
+  .about .body .text-section h2 {
+    font-size: 35px;
+  }
+
+  .about .service h2 {
+    font-size: 25px;
+  }
+
+  .about .service .mini-card .mini-card-body .card-title {
+    font-size: 32px;
+  }
+
+  .about .service .mini-card .mini-card-body .card-text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .about {
+    padding: 0 30px;
+  }
+
+  .about .body .photo-tab {
+    flex-direction: row;
+    top: auto;
+    bottom: 100px;
+    right: auto;
+    left: 20px;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+
+  .about .body .photo-tab .one {
+    right: 0;
+  }
+
+  .about .body .photo-tab .two {
+    right: 0;
+  }
+
+  .about .body .photo-tab span {
+    padding: 15px 25px;
+    font-size: 16px;
+  }
+
+  .about .body .text-section {
+    padding: 0;
+  }
+
+  .about .body .text-section h2 {
+    font-size: 45px;
+  }
+
+  .about .service h2 {
+    font-size: 44px;
+    text-align: center;
+  }
+
+  .about .service .mini-card .mini-card-body .card-title {
+    font-size: 44px;
+  }
+
+  .about .service .mini-card .mini-card-body .card-text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 640.98px) {
+  .about {
+    padding: 0 10px;
+  }
+
+  .about .body .photo-tab {
+    bottom: 80px;
+    right: auto;
+    left: 0;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .about {
+    padding: 0;
+  }
+
+  .about .body .photo-tab {
+    bottom: 50px;
+    right: auto;
+    left: 10px;
+  }
+
+  .about .body .text-section h2 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 425.98px) {
+  .about {
+    padding: 0 10px;
+  }
+
+  .about .body .photo-tab {
+    bottom: 0px;
+    left: 20px;
+    gap: 10px;
+  }
+
+  .about .body .text-section h2 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 375.98px) {
+  .about {
+    padding: 0;
+  }
+
+  .about .body .photo-tab {
+    bottom: 0px;
+    left: 25px;
+    gap: 10px;
+  }
+
+  .about .body .photo-tab span {
+    padding: 13px 20px;
+    font-size: 14px;
+  }
+
+  .about .body .text-section h2 {
+    font-size: 40px;
+  }
+
+  .about .service h2 {
+    font-size: 34px;
+  }
+
+  .about .service .mini-card .mini-card-body .card-title {
+    font-size: 40px;
+  }
+
+  .about .service .mini-card .mini-card-body .card-text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 320.98px) {
+  .about .body .text-section {
+    padding: 0 5px;
+  }
+
+  .about .body .text-section h2 {
+    font-size: 38px;
+  }
+
+  .about .body .text-section p {
+    font-size: 14px;
+  }
+}

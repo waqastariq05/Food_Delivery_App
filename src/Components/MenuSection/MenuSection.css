@@ -1,0 +1,120 @@
+.menu {
+  margin: 50px 0;
+}
+
+.menu .menuBody {
+  padding: 50px 0;
+}
+
+/* Search Box */
+.menu .menuBody .searchBox {
+  border: 0 none;
+  background-position: 50% 50%;
+  background-color: #f2efe6;
+  background-image: url(//gomoto.like-themes.com/wp-content/themes/gomoto/assets/images/overlay-waves-white.png);
+  background-repeat: repeat-x;
+  background-position: center center;
+  filter: alpha(opacity=25);
+  opacity: 0.25;
+  zoom: 1;
+  filter: alpha(opacity=100);
+  opacity: 1;
+  padding: 30px 20px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.menu .menuBody .searchBox input {
+  border-radius: 34px;
+  padding: 12px 20px;
+}
+
+.menu .menuBody .searchBox input::placeholder {
+  font-size: 14px;
+}
+
+.menu .menuBody .searchBox .btn {
+  padding: 12px 15px;
+}
+
+/* Categories Box */
+.menu .leftBox {
+  border: 1px dashed rgba(0, 0, 0, 0.25);
+  padding: 20px 30px;
+  border-radius: 20px;
+  margin: 30px 0;
+}
+
+.leftBox .leftBoxPrice {
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.25);
+  padding: 5px 0 10px;
+}
+
+.leftBox .leftBoxTitle h2 {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.leftBox .leftBoxCate {
+  padding: 20px 0 10px;
+}
+
+.leftBox .leftBoxCate .form-check {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.leftBox .leftBoxCate .form-check input {
+  cursor: pointer !important;
+}
+
+.leftBox .leftBoxCate .form-check label {
+  cursor: pointer !important;
+}
+
+.leftBoxPrice p {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: #444;
+}
+
+.leftBoxPrice p span {
+  color: var(--dark-yellow);
+  font-family: 'Roboto';
+  margin-left: 5px;
+}
+
+.leftBoxPrice input {
+  appearance: none;
+  width: 100%;
+  height: 10px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  border-radius: 20px;
+  transition: opacity .2s;
+}
+
+.leftBoxPrice input:hover {
+  opacity: 1;
+}
+
+.leftBoxPrice input::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background: var(--yellow);
+  cursor: pointer;
+}
+
+.sweetPagination {
+  margin-top: 3rem;
+}
+
+.style-custom {
+  background-color: var(--dark-yellow);
+}

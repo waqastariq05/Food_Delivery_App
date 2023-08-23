@@ -1,0 +1,197 @@
+.contact {
+  margin: 50px 0 50px;
+  padding: 0 60px;
+}
+
+.contact .body {
+  margin: 30px 0;
+}
+
+.contact .body .mini-card {
+  width: auto;
+  box-shadow: 5px 5px 20px rgb(0, 0, 0, 0.2);
+  padding: 10px 25px 20px;
+  transition: all 0.3s ease;
+  height: 160px;
+}
+
+.contact .body .mini-card:hover {
+  background-color: #363636;
+  color: #fff !important;
+}
+
+.contact .body .mini-card .mini-card-img {
+  display: none;
+}
+
+.contact .body .mini-card .icon {
+  display: block;
+  font-size: 35px;
+  color: var(--yellow);
+}
+
+.contact .body .mini-card .mini-card-body {
+  text-align: left;
+  padding: 15px 0 0;
+}
+
+.contact .body .mini-card .mini-card-body .card-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.contact .body .mini-card:hover .card-title {
+  color: #fff !important;
+}
+
+.contact .body .mini-card .mini-card-body .btn {
+  display: none;
+}
+
+.contact .body .mini-card .mini-card-body .card-text {
+  margin-bottom: 0;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.contact .body .mini-card:hover .card-text {
+  color: #fff !important;
+}
+
+.contact .body .mini-card .mini-card-body .card-price {
+  display: none;
+}
+
+/* ========== Form ========== */
+.contact .form {
+  padding: 60px 200px 20px;
+}
+
+.contact .form .form-body {
+  padding-top: 1px;
+}
+
+.contact .form input {
+  margin: 30px 0;
+  padding: 20px 20px;
+  border-radius: 34px;
+  border: 1px solid #cfcfcf;
+}
+
+.contact .form input:focus {
+  border: 2px solid var(--dark-yellow) !important;
+}
+
+.contact .form input::placeholder {
+  color: #cfcfcf;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.contact .form textarea {
+  margin: 30px 0;
+  padding: 20px 20px;
+  border-radius: 34px;
+  border: 1px solid #cfcfcf;
+}
+
+.contact .form textarea:focus {
+  border: 2px solid var(--dark-yellow) !important;
+}
+
+.contact .form textarea::placeholder {
+  color: #cfcfcf;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.contact .form .btn {
+  width: 100%;
+  padding: 15px 30px 15px 30px;
+}
+
+@media (max-width: 1199.98px) {
+  .contact {
+    padding: 0;
+  }
+
+  .contact .body .mini-card .mini-card-body .card-title {
+    font-size: 14px;
+  }
+
+  .contact .body .mini-card .mini-card-body .card-text {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .contact .body .mini-card .mini-card-body .card-title {
+    font-size: 13px;
+  }
+
+  .contact .body .mini-card .mini-card-body .card-text {
+    font-size: 12px;
+  }
+
+  .contact .form {
+    padding: 60px 150px 20px;
+  }
+}
+
+@media (max-width: 820.98px) {
+  .contact .body .mini-card .mini-card-body .card-title {
+    font-size: 12px;
+  }
+
+  .contact .body .mini-card .mini-card-body .card-text {
+    font-size: 11px;
+  }
+
+  .contact .form {
+    padding: 60px 100px 20px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .contact {
+    padding: 0 50px;
+  }
+
+  .box {
+    margin: 20px 0;
+  }
+
+  .contact .body .mini-card .mini-card-body .card-title {
+    font-size: 16px;
+  }
+
+  .contact .body .mini-card .mini-card-body .card-text {
+    font-size: 14px;
+  }
+
+  .contact .form {
+    padding: 30px 10px 20px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .contact {
+    padding: 0;
+  }
+}
+
+@media (max-width: 375.98px) {
+  .contact .form input {
+    margin: 20px 0;
+    padding: 15px 20px;
+  }
+
+  .contact .form textarea {
+    margin: 20px 0;
+    padding: 15px 20px;
+  }
+
+  .contact .form .btn {
+    padding: 12px 30px 12px 30px;
+  }
+}

@@ -1,0 +1,271 @@
+.logo {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100px;
+}
+
+.navbar {
+  overflow: visible;
+}
+
+.navbar.active {
+  position: fixed;
+  top: -70px;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: 11;
+  animation: navbar .5s forwards linear;
+}
+
+@keyframes navbar {
+  0% {
+    top: -70px;
+  }
+
+  100% {
+    top: 0;
+  }
+}
+
+.navbar-brand {
+  font-family: "Alkatra";
+  font-weight: 500;
+  font-size: 24px;
+  padding: 0;
+  padding-top: 6px;
+}
+
+.navbar .fa-burger {
+  font-size: 30px;
+  color: var(--dark-yellow);
+}
+
+.navbar-brand span {
+  color: var(--yellow);
+}
+
+.navbar .hide .navbar-toggler {
+  line-height: 0;
+  padding: 0;
+  border: 1px solid transparent !important;
+  padding: 4px;
+  color: #fff;
+}
+
+.navbar .hide .navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar .hide .basket {
+  background: transparent;
+  border: 2px solid var(--dark-yellow) !important;
+  padding: 4px 10px;
+  color: var(--dark-yellow);
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.nav-end .btn {
+  margin-left: 5px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  font-size: 16px;
+  font-weight: 600 !important;
+  font-family: 'Roboto';
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  color: #000;
+  position: relative;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: var(--dark-yellow);
+}
+
+.navbar .navbar-nav .nav-item .nav-link.active {
+  color: var(--dark-yellow);
+}
+
+.navbar .navbar-nav .nav-item .nav-link::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 10%);
+  width: 50px;
+  height: 3px;
+  border-radius: 10px;
+  background-color: var(--dark-yellow);
+  visibility: hidden;
+  transition: all .3s ease;
+}
+
+.navbar .navbar-nav .nav-item .nav-link.active::before {
+  visibility: visible;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover::before {
+  transition: all 0.3s ease;
+  visibility: visible;
+}
+
+.navbar .nav-end {
+  align-items: center;
+}
+
+.navbar .basket {
+  background: transparent;
+  border: 2px solid var(--dark-yellow);
+  padding: 4px 10px;
+  color: var(--dark-yellow);
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.navbar .basket .badge {
+  background: var(--yellow);
+  border-radius: 100%;
+  padding: 5px 8px;
+  font-size: 14px;
+}
+
+/* Media  Query*/
+@media (max-width: 920.98px) {
+  .navbar .navbar-nav .nav-item {
+    margin: 0 5px !important;
+  }
+
+  .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 14px;
+  }
+
+  .nav-end .basket {
+    font-size: 14px;
+  }
+
+  .nav-end .btn {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 920.98px) {
+  .navbar .navbar-nav .nav-item {
+    margin: 0 !important;
+  }
+
+  .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 12px;
+  }
+
+  .nav-end .basket {
+    font-size: 12px;
+    margin-right: 10px !important;
+  }
+
+  .nav-end .btn {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .navbar .navbar-nav {
+    padding: 15px 0;
+  }
+
+  .navbar .navbar-nav .nav-item .nav-link {
+    padding: 12px 0;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+  }
+
+  .navbar .navbar-nav .nav-item .nav-link::before {
+    position: relative;
+  }
+
+  .nav-end .basket {
+    display: none;
+  }
+
+  .nav-end {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .nav-end .btn {
+    width: 100%;
+    border-radius: 0;
+    margin-left: 0;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 576.98px) {
+  .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 280.98px) {
+  .logo {
+    max-height: 30px;
+    margin-right: 10px !important;
+  }
+
+  .navbar-brand {
+    font-size: 20px;
+    margin-top: 0px;
+  }
+}
+
+
+/* ==================== Admin Navbar ===================== */
+.adminNavbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  padding: 40px 50px 30px;
+}
+
+.adminNavbar a {
+  color: var(--black);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.adminNavbar .fa-burger {
+  font-size: 30px;
+  color: var(--dark-yellow);
+}
+
+
+.adminNavbar .nav .nav-link {
+  margin: 5px 0;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  text-transform: uppercase;
+  letter-spacing: .3px;
+  text-decoration: none;
+}
+
+.adminNavbar .nav .nav-link:hover {
+  color: var(--yellow);
+}
+
+.adminNavbar .nav .nav-link.active {
+  color: var(--yellow);
+}
+
+.adminNavbar p {
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 600;
+}

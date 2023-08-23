@@ -1,0 +1,42 @@
+.top {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.top h6 {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  color: var(--yellow);
+  font-family: "Alkatra";
+  margin-bottom: 10px;
+}
+.top h2 {
+  font-size: 50px;
+  font-family: "Roboto";
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.top .bottom-dots {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin-top: 8px;
+}
+.top .bottom-dots .line-dot {
+  border-right: 40px solid var(--yellow) !important;
+}
+.top .bottom-dots .dot {
+  position: relative;
+  display: block;
+  float: left;
+  width: 3px;
+  height: 3px;
+  border-right: 3px solid var(--yellow);
+  margin-right: 3px;
+}
+@media (max-width: 375.98px) {
+  .top h2 {
+    font-size: 40px;
+  }
+}

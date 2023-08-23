@@ -1,0 +1,114 @@
+.checkoutSection {
+    margin: 50px 0;
+}
+
+.checkoutSection .left {
+    padding-right: 30px;
+}
+
+.checkoutSection .left .checkoutHeader {
+    margin-bottom: 30px;
+}
+
+.checkoutSection .left .row {
+    padding: 0 30px;
+}
+
+.checkoutSection .left label {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.checkoutSection .left input {
+    padding: 10px 15px;
+    border-radius: 0;
+    margin-bottom: 10px;
+}
+
+.checkoutSection .left input:focus {
+    border: 2px solid var(--dark-yellow) !important;
+}
+
+/* ==================== Right =============== */
+.checkoutSection .right {
+    padding-left: 30px;
+}
+
+.checkoutSection .checkoutHeader {
+    background: var(--dark-yellow);
+    padding: 15px 30px;
+}
+
+.checkoutSection .checkoutHeader h2 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.checkoutSection .checkoutBody {
+    background: #eee;
+}
+
+.checkoutSection .checkoutBody .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    border-bottom: 2px dashed #ddd;
+}
+
+.checkoutSection .checkoutBody .head h3 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Roboto';
+    margin-bottom: 0;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+
+.checkoutSection .checkoutBody .data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 30px;
+    border-bottom: 2px dashed #ddd;
+}
+
+.checkoutSection .checkoutBody .data h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: #000;
+}
+
+.checkoutSection .checkoutBody .data p {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: #777
+}
+
+.checkoutSection .checkoutFooter {
+    background: #eee;
+}
+
+.checkoutSection .checkoutFooter .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.checkoutSection .checkoutFooter .head h3 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Roboto';
+    margin-bottom: 0;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+
+.checkoutSection .btn {
+    margin-top: 15px;
+}

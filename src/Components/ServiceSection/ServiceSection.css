@@ -1,0 +1,26 @@
+.service {
+  margin: 50px 0 50px;
+  padding: 0 50px;
+}
+.service .body {
+  margin: 5px 0 30px;
+}
+
+@media (max-width: 991.98px) {
+  .service {
+    padding: 0;
+  }
+}
+@media (max-width: 767.98px) {
+  .service {
+    padding: 0 50px;
+  }
+  .box {
+    margin: 10px 0;
+  }
+}
+@media (max-width: 575.98px) {
+  .service {
+    padding: 0;
+  }
+}
